@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
+//const routes = require("./routes/index");
 
 const app = express();
 
@@ -21,9 +22,11 @@ app.get("/", (req, res) => {
   res.json({ message: "Warning : Restricted Resource." });
 });
 
-//require("./routes/index")(app);
+require("./routes/index")(app);
 // set port, listen for requests
 const PORT = process.env.PORT || 3010;
+
+//app.use('/')
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });
