@@ -1,0 +1,32 @@
+{
+  "name": "server_v2.0",
+  "version": "2.0.0",
+  "description": "Second try with sequalize migrations",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maleesha-Ranawaka/SequalizeProject.git"
+  },
+  "keywords": [
+    "Sequalize",
+    "Migrations"
+  ],
+  "author": "MAL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maleesha-Ranawaka/SequalizeProject/issues"
+  },
+  "homepage": "https://github.com/Maleesha-Ranawaka/SequalizeProject#readme"
+}
